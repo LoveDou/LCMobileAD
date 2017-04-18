@@ -10,12 +10,12 @@
 		2BEF260FE56E32CAAAF06B77 /* libPods-LCMobileAD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E687D8B36F48A46F76543704 /* libPods-LCMobileAD.a */; };
 		84931C061EA5B62600F22A57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84931C051EA5B62600F22A57 /* main.m */; };
 		84931C091EA5B62600F22A57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84931C081EA5B62600F22A57 /* AppDelegate.m */; };
-		84931C0C1EA5B62600F22A57 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84931C0B1EA5B62600F22A57 /* ViewController.m */; };
 		84931C0F1EA5B62600F22A57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84931C0D1EA5B62600F22A57 /* Main.storyboard */; };
 		84931C111EA5B62600F22A57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84931C101EA5B62600F22A57 /* Assets.xcassets */; };
 		84931C141EA5B62600F22A57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84931C121EA5B62600F22A57 /* LaunchScreen.storyboard */; };
 		84931C1C1EA5B77800F22A57 /* AltamobAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84931C1B1EA5B77800F22A57 /* AltamobAdSDK.framework */; };
 		84931C1D1EA5B77800F22A57 /* AltamobAdSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84931C1B1EA5B77800F22A57 /* AltamobAdSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84C4ACE01EA60F5800BC6B9B /* ADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C4ACDF1EA60F5800BC6B9B /* ADViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,13 +38,13 @@
 		84931C051EA5B62600F22A57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84931C071EA5B62600F22A57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84931C081EA5B62600F22A57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84931C0A1EA5B62600F22A57 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		84931C0B1EA5B62600F22A57 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		84931C0E1EA5B62600F22A57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84931C101EA5B62600F22A57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84931C131EA5B62600F22A57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84931C151EA5B62600F22A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84931C1B1EA5B77800F22A57 /* AltamobAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AltamobAdSDK.framework; path = ../LCAdSDK/AltamobAdSDK.framework; sourceTree = "<group>"; };
+		84C4ACDE1EA60F5800BC6B9B /* ADViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADViewController.h; sourceTree = "<group>"; };
+		84C4ACDF1EA60F5800BC6B9B /* ADViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADViewController.m; sourceTree = "<group>"; };
 		DC83EB82BFBAE50E22F8B2AF /* Pods-LCMobileAD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCMobileAD.release.xcconfig"; path = "Pods/Target Support Files/Pods-LCMobileAD/Pods-LCMobileAD.release.xcconfig"; sourceTree = "<group>"; };
 		E687D8B36F48A46F76543704 /* libPods-LCMobileAD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LCMobileAD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -102,8 +102,8 @@
 			children = (
 				84931C071EA5B62600F22A57 /* AppDelegate.h */,
 				84931C081EA5B62600F22A57 /* AppDelegate.m */,
-				84931C0A1EA5B62600F22A57 /* ViewController.h */,
-				84931C0B1EA5B62600F22A57 /* ViewController.m */,
+				84C4ACDE1EA60F5800BC6B9B /* ADViewController.h */,
+				84C4ACDF1EA60F5800BC6B9B /* ADViewController.m */,
 				84931C0D1EA5B62600F22A57 /* Main.storyboard */,
 				84931C101EA5B62600F22A57 /* Assets.xcassets */,
 				84931C121EA5B62600F22A57 /* LaunchScreen.storyboard */,
@@ -246,7 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84931C0C1EA5B62600F22A57 /* ViewController.m in Sources */,
+				84C4ACE01EA60F5800BC6B9B /* ADViewController.m in Sources */,
 				84931C091EA5B62600F22A57 /* AppDelegate.m in Sources */,
 				84931C061EA5B62600F22A57 /* main.m in Sources */,
 			);

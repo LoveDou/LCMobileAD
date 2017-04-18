@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  ADViewController.h
 //  AltamobSDKTest
 //
-//  Created by zjw1 on 2017/1/9.
+//  Created by luochao on 2017/3/29.
 //  Copyright © 2017年 Altamob. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ADViewController : UIViewController
 
 @end
-

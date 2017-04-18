@@ -17,7 +17,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    [[AMAltamobAdSDK shareInstance] resgistWithAppkey:@"f2f7f148-6b3e-b31c-cc6c-31ec0a8eddc8"];
+    [[AMAltamobAdSDK shareInstance] resgistWithAppkey:@"88e99858-cc3c-57f1-f0d5-8aa5e7a66d86"];
+    [[AMAltamobAdSDK shareInstance] setDebugEable:YES];
     
     return YES;
 }
