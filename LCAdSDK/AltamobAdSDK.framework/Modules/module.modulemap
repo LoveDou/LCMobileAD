@@ -1,0 +1,6 @@
+framework module AltamobAdSDK {
+  umbrella header "AltamobAdSDK.h"
+
+  export *
+  module * { export * }
+}
