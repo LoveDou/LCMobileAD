@@ -8,5 +8,5 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/LoveDou/LCMobileAD.git', :tag => s.version, :submodules => true }
   s.requires_arc = true
   s.resource = 'LCAdSDK/AltamobAdSDK.framework'
-  s.dependency "FBAudienceNetwork"  
+  s.dependency = "FBAudienceNetwork"
 end
