@@ -16,6 +16,7 @@
 		84931C1C1EA5B77800F22A57 /* AltamobAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84931C1B1EA5B77800F22A57 /* AltamobAdSDK.framework */; };
 		84931C1D1EA5B77800F22A57 /* AltamobAdSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84931C1B1EA5B77800F22A57 /* AltamobAdSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		84C4ACE01EA60F5800BC6B9B /* ADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C4ACDF1EA60F5800BC6B9B /* ADViewController.m */; };
+		84C4ACE51EA61E1A00BC6B9B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C4ACE41EA61E1A00BC6B9B /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,8 @@
 		84931C1B1EA5B77800F22A57 /* AltamobAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AltamobAdSDK.framework; path = ../LCAdSDK/AltamobAdSDK.framework; sourceTree = "<group>"; };
 		84C4ACDE1EA60F5800BC6B9B /* ADViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADViewController.h; sourceTree = "<group>"; };
 		84C4ACDF1EA60F5800BC6B9B /* ADViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADViewController.m; sourceTree = "<group>"; };
+		84C4ACE41EA61E1A00BC6B9B /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		84C4ACE61EA6215600BC6B9B /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
 		DC83EB82BFBAE50E22F8B2AF /* Pods-LCMobileAD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCMobileAD.release.xcconfig"; path = "Pods/Target Support Files/Pods-LCMobileAD/Pods-LCMobileAD.release.xcconfig"; sourceTree = "<group>"; };
 		E687D8B36F48A46F76543704 /* libPods-LCMobileAD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LCMobileAD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -54,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C4ACE51EA61E1A00BC6B9B /* libsqlite3.tbd in Frameworks */,
 				84931C1C1EA5B77800F22A57 /* AltamobAdSDK.framework in Frameworks */,
 				2BEF260FE56E32CAAAF06B77 /* libPods-LCMobileAD.a in Frameworks */,
 			);
@@ -65,6 +69,7 @@
 		355FD540C623F7829F4F6BCD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84C4ACE41EA61E1A00BC6B9B /* libsqlite3.tbd */,
 				E687D8B36F48A46F76543704 /* libPods-LCMobileAD.a */,
 			);
 			name = Frameworks;
@@ -116,6 +121,7 @@
 		84931C041EA5B62600F22A57 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				84C4ACE61EA6215600BC6B9B /* FBAudienceNetwork.framework */,
 				84931C1B1EA5B77800F22A57 /* AltamobAdSDK.framework */,
 				84931C051EA5B62600F22A57 /* main.m */,
 			);
@@ -372,6 +378,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/LCAdSDK",
+					"$(PROJECT_DIR)/LCMobileAD",
 				);
 				INFOPLIST_FILE = LCMobileAD/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -391,6 +398,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/LCAdSDK",
+					"$(PROJECT_DIR)/LCMobileAD",
 				);
 				INFOPLIST_FILE = LCMobileAD/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

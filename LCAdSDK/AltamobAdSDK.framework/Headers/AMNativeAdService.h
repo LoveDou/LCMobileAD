@@ -18,9 +18,17 @@
 
 + (instancetype)defaultService;
 
-- (void)loadAdsWithPlacementId:(NSString *)placementId count:(NSInteger)count;
+- (void)loadAdsWithPlacementId:(NSString *)placementId
+                         count:(NSInteger)count;
 
 - (void)registerViewForInteraction:(AMNativeAd *)nativeAd
-                withClickableViews:(NSArray<UIView *> *)clickableViews;
+                withClickableViews:(NSArray<UIView *> *)clickableViews
+                         currentVC:(UIViewController *)currentVC;
+
+/**
+ * SDK 生成mediaview choiceview
+ */
+- (UIView *)fbChoiceViewWithNativeAd:(AMNativeAd *)nativeAd;
+- (UIView *)fbMediaViewWithNativeAd:(AMNativeAd *)nativeAd;
 
 @end
