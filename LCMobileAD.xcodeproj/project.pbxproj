@@ -13,25 +13,9 @@
 		84931C0F1EA5B62600F22A57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84931C0D1EA5B62600F22A57 /* Main.storyboard */; };
 		84931C111EA5B62600F22A57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84931C101EA5B62600F22A57 /* Assets.xcassets */; };
 		84931C141EA5B62600F22A57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84931C121EA5B62600F22A57 /* LaunchScreen.storyboard */; };
-		84931C1C1EA5B77800F22A57 /* AltamobAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84931C1B1EA5B77800F22A57 /* AltamobAdSDK.framework */; };
-		84931C1D1EA5B77800F22A57 /* AltamobAdSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84931C1B1EA5B77800F22A57 /* AltamobAdSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		84C4ACE01EA60F5800BC6B9B /* ADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C4ACDF1EA60F5800BC6B9B /* ADViewController.m */; };
 		84C4ACE51EA61E1A00BC6B9B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C4ACE41EA61E1A00BC6B9B /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		84931C1E1EA5B77800F22A57 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				84931C1D1EA5B77800F22A57 /* AltamobAdSDK.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		59159665A6001DB0A2EC792F /* Pods-LCMobileAD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCMobileAD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LCMobileAD/Pods-LCMobileAD.debug.xcconfig"; sourceTree = "<group>"; };
@@ -58,7 +42,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				84C4ACE51EA61E1A00BC6B9B /* libsqlite3.tbd in Frameworks */,
-				84931C1C1EA5B77800F22A57 /* AltamobAdSDK.framework in Frameworks */,
 				2BEF260FE56E32CAAAF06B77 /* libPods-LCMobileAD.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +122,6 @@
 				84931BFD1EA5B62600F22A57 /* Sources */,
 				84931BFE1EA5B62600F22A57 /* Frameworks */,
 				84931BFF1EA5B62600F22A57 /* Resources */,
-				84931C1E1EA5B77800F22A57 /* Embed Frameworks */,
 				841D851296FA7DF5314F685C /* [CP] Embed Pods Frameworks */,
 				570B14E52DC1386846C2F905 /* [CP] Copy Pods Resources */,
 			);
@@ -377,7 +359,6 @@
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/LCAdSDK",
 					"$(PROJECT_DIR)/LCMobileAD",
 				);
 				INFOPLIST_FILE = LCMobileAD/Info.plist;
@@ -397,7 +378,6 @@
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/LCAdSDK",
 					"$(PROJECT_DIR)/LCMobileAD",
 				);
 				INFOPLIST_FILE = LCMobileAD/Info.plist;
