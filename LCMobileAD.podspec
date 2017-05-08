@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.authors  = { 'LoveDou' => 'luochao@altamob.com' }
   s.source   = { :git => 'https://github.com/LoveDou/LCMobileAD.git', :tag => s.version, :submodules => true }
   s.requires_arc = true
-  s.public_header_files = 'LCAdSDK/AltamobAdSDK.framework/Headers/**.h'
+  s.source_files = 'LCAdSDK/AltamobAdSDK.framework/*.h'
   s.resource = 'LCAdSDK/AltamobAdSDK.framework'
   s.dependency  'FBAudienceNetwork'
 end
